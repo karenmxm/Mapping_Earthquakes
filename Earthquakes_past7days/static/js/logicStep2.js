@@ -63,8 +63,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
   // Creating a GeoJSON layer with the retrieved data.
   L.geoJson(data, {
 
-	// We turn each feature into a circleMarker on the map.
-	
+	// We turn each feature into a circleMarker on the map.	
 	pointToLayer: function(feature, latlng) {
 				  console.log(data);
 				  return L.circleMarker(latlng);
