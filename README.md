@@ -1,4 +1,5 @@
 ## Welcome to Mapping_Earthquakes
+This project is to use Leaflet.js Application Programming Interface (API) to populate a geographical map with GeoJSON earthquake data from a URL.
 
 1. Retrieve data from a GeoJSON file.
 2. Populate geographical maps with GeoJSON data using JavaScript and the Data-Driven Documents (D3) library.
